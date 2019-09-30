@@ -25,7 +25,6 @@ public class ItemCreateConfirmAction extends ActionSupport implements SessionAwa
 		Matcher price =p.matcher(itemPrice);
 		Matcher stock =p.matcher(itemStock);
 
-
 		if(!(itemName.equals(""))
 				&& !(itemPrice.equals(""))
 				&& !(itemStock.equals(""))
@@ -41,7 +40,6 @@ public class ItemCreateConfirmAction extends ActionSupport implements SessionAwa
 				setMessage("値段、在庫には数字を入力してください");
 				result =ERROR;
 			}
-
 
 		}else{
 			setMessage("未記入の項目があります。");
@@ -84,6 +82,4 @@ public class ItemCreateConfirmAction extends ActionSupport implements SessionAwa
 	public void setSession(Map<String, Object> session){
 		this.session =session;
 	}
-
-
 }

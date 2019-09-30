@@ -60,9 +60,4 @@ public class MyPageDTO {
 		this.insert_date =insert_date;
 	}
 
-
-
-
-
-
 }

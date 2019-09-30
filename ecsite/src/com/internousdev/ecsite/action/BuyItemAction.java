@@ -20,12 +20,10 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 		String result =SUCCESS;
 
 		session.put("count", count);
-		int intCount =(int)session.get("count");
-//		int intCount =Integer.parseInt(session.get("count").toString());
+		int intCount =Integer.parseInt(session.get("count").toString());
 		int intPrice =Integer.parseInt(session.get("buyItem_price").toString());
 		session.put("total_price", intCount * intPrice);
 		String payment;
-
 
 		BuyItemDAO dao =new BuyItemDAO();
 		stock =dao.getBuyItemInfo().getStock();
@@ -68,7 +66,6 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 	public void setMessage(String message){
 		this.message =message;
 	}
-
 
 	public void setSession(Map<String, Object> session){
 		this.session =session;

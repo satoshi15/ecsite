@@ -7,7 +7,4 @@ public class UserListDeleteConfirmAction extends ActionSupport {
 	public String execute(){
 		return SUCCESS;
 	}
-
-
-
 }

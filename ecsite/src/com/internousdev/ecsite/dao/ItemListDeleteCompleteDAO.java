@@ -12,8 +12,6 @@ public class ItemListDeleteCompleteDAO {
 		int result =0;
 		DBConnector db =new DBConnector();
 		Connection con =db.getConnection();
-
-
 		String sql ="DELETE FROM item_info_transaction";
 
 		try{

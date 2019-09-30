@@ -18,7 +18,6 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 
 	public String execute() throws SQLException{
 
-
 		String result =SUCCESS;
 		UserCreateConfirmDAO dao =new UserCreateConfirmDAO();
 		int i =dao.userCreateConfirm(loginUserId);
@@ -78,6 +77,4 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	public void setSession(Map<String, Object> session){
 		this.session =session;
 	}
-
-
 }

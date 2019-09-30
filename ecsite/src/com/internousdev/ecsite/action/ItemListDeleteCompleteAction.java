@@ -29,6 +29,4 @@ public class ItemListDeleteCompleteAction extends ActionSupport {
 	public void setMessage(String message){
 		this.message =message;
 	}
-
 }
-

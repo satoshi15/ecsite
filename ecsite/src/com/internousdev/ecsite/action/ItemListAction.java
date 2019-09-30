@@ -20,8 +20,6 @@ public class ItemListAction extends ActionSupport {
 		return result;
 	}
 
-
-
 	public ArrayList<ItemInfoDTO> getItemInfoList(){
 		return this.itemInfoList;
 	}
@@ -29,7 +27,4 @@ public class ItemListAction extends ActionSupport {
 	public void setItemInfoList(ArrayList<ItemInfoDTO> itemInfoList){
 		this.itemInfoList =itemInfoList;
 	}
-
-
-
 }

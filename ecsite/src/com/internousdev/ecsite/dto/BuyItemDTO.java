@@ -34,7 +34,4 @@ public class BuyItemDTO {
 	public void setStock(int stock){
 		this.stock =stock;
 	}
-
-
-
 }

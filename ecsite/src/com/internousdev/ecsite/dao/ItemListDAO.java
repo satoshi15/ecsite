@@ -38,5 +38,4 @@ public class ItemListDAO {
 		return itemInfoDTO;
 	}
 
-
 }

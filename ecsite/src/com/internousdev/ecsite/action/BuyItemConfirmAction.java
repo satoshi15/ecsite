@@ -28,7 +28,6 @@ public class BuyItemConfirmAction extends ActionSupport implements SessionAware 
 			return SUCCESS;
 	}
 
-
 	public void setSession(Map<String, Object> session){
 		this.session =session;
 	}

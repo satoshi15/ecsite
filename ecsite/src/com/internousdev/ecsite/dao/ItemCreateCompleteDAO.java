@@ -9,8 +9,6 @@ import com.internousdev.ecsite.util.DateUtil;
 
 public class ItemCreateCompleteDAO {
 
-
-
 	public void itemCreate(String itemName, String itemPrice, String itemStock) throws SQLException{
 
 		DateUtil dateUtil =new DateUtil();
